@@ -1,7 +1,14 @@
-class User {
-  constructor() {
-
+class Users {
+  constructor(name, id) {
+    this.name= name;
+    this.id = id;
   }
 }
 
-export default User;
+class Manger extends Users {
+  constructor() {
+    super(name, id)
+  }
+}
+
+export default Users;
