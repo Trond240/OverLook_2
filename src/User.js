@@ -6,7 +6,7 @@ class Users {
 }
 
 class Manger extends Users {
-  constructor() {
+  constructor(name, id) {
     super(name, id)
   }
 }
