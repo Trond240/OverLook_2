@@ -1,0 +1,151 @@
+$primary-background: #5f6366;
+$primary-main: #272727;
+$secondary-main: white;
+$primary-font: 'Lobster', cursive;
+;
+
+
+body {
+  font-family: $primary-font;
+  background-color: $primary-background;
+}
+//Main Page
+
+.nav-bar {
+  width: 100%;
+  font-size: 1.5em;
+  color: $secondary-main;
+  font-family: $primary-font;
+  text-align: center;
+  background-color: $primary-main;
+  border: solid $secondary-main 3px;
+  border-radius: 3px;
+}
+
+
+// .logo {
+//   background-image: url('../images/rays.jpg');
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   width: 150px;
+//   height: 150px;
+// }
+
+.welcome-screen {
+  background-image: url('../images/newYork.jpg');
+  background-size: contain;
+  font-size: 1.3em;
+  // background: stretch;
+  // background-repeat: no-repeat;
+  height: 200px;
+  width: 1424px;
+}
+
+.heading-one{
+  color: $secondary-main;
+}
+
+.intro-text {
+  color: $primary-main;
+  font-size: 2em;
+}
+
+.user-input{
+  margin-right: 100px;
+}
+
+
+.user-input, .login-button {
+  margin-top: 80px;
+  height: 40px;
+  width: 300px;
+  border: solid $primary-main 4px;
+  border-radius: 3px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.login-button, .user-name, .user-password {
+  font-size: 1em;
+  font-family: $primary-font;
+}
+
+//USER PAGE
+
+h1 {
+  color: $secondary-main;
+}
+.user-page, .manager-page {
+  background-image: url('../images/nightlife.jpg');
+  background-size: contain;
+}
+
+.manager-dash-board {
+  text-align: center;
+}
+
+.rooms-booked, .manager-options {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.search-book-room, .user-room, .guest-rooms, .users {
+  overflow: scroll;
+  padding: 10px;
+  margin-top: 20px;
+  height: 600px;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  background-color: $primary-background;
+  border: solid $primary-main 4px;
+  border-radius: 3px;
+  color: $secondary-main;
+}
+
+.present-user-rooms-booked {
+  margin: 20px;
+  height: 550px;
+  width: 30%;
+  padding: 20px;
+  background-color: $primary-background;
+  border: solid $primary-main 4px;
+  border-radius: 3px;
+  color: $secondary-main;
+}
+
+.past-user-rooms-booked, .new-bookings{
+  overflow: scroll;
+  padding: 10px;
+  margin: 20px;
+  width: 30%;
+  height: 600px;
+  padding: 20px;
+  background-color: $primary-background;
+  border: solid $primary-main 4px;
+  border-radius: 3px;
+  color: $secondary-main;
+}
+
+.date-input {
+  height: 40px;
+  width: 200px;
+  border: solid $primary-main 4px;
+  border-radius: 3px;
+}
+
+.book-room-card, .card {
+  margin: 5px;
+  padding: 5px;
+  border: solid $primary-main 4px;
+  border-radius: 3px;
+}
+
+
+.hidden {
+  display: none;
+}
